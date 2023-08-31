@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #f1f1f1;;
 }
@@ -234,18 +238,18 @@ form input:focus , textarea:focus{
 }
 
 form div{
-    margin: 10px 0px;
+    margin: 12px 0px;
 }
 
 input[type="submit"]{
     border: none;
     font-size: 19px;
-    color: black;
-    background-color: #bfb9b9;
+    color: white;
+    background-color: #ff6e43;
 }
 
 input[type="submit"]:hover{
-    background-color: #bfb9b9;
+    background-color: #ff6e43;
     color: black;
 }
 
