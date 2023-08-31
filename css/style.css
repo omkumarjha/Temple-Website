@@ -252,7 +252,7 @@ input[type="submit"]:hover{
 /* footer section css  */
 
 footer{
-    margin: 75px 0px;
+    margin-top: 30px;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
@@ -261,13 +261,14 @@ footer{
     padding: 75px 0px;
 }
 
-.links a{
+.links a,.help a,.mail a{
     text-decoration: none;
     color: black;
     font-size: 1.1rem;
+    transition: 0.5s ease;
 }
 
-.links li{
+.links li,.help li{
     list-style: none;
     margin: 10px 0px;
 }
@@ -277,6 +278,27 @@ footer{
     margin-top: 10px;
 }
 
-.contact h2{
+.contact h2,.links h2,.help h2{
     font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.top-footer p,.top-footer li,.help li{
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+}
+
+.top-footer svg{
+    position: relative;
+    top: 9px;
+}
+
+.mail a:hover,.links a:hover,.help a:hover{
+    color: #d53100;
+}
+
+.bottom-footer{
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 1.1rem;
 }
