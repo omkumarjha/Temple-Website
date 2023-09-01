@@ -274,8 +274,11 @@ footer{
 }
 
 .top-footer{
-    justify-content: space-around;
     padding: 75px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    justify-items: center;
+    align-items: center;
 }
 
 .links a,.help a,.mail a{
@@ -298,6 +301,7 @@ footer{
 .contact h2,.links h2,.help h2{
     font-size: 1.8rem;
     margin-bottom: 15px;
+    margin-top: 20px;
 }
 
 .top-footer p,.top-footer li,.help li{
