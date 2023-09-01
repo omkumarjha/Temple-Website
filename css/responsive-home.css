@@ -65,13 +65,14 @@
         height: 35px !important;
     }
     .v-hidden{
-        opacity: 0;;
+        opacity: 0;
     }
     #about h1 , #activities h1 , #donation h1 , #contact h1{
         font-size: 2rem;
     }
     #about p{
         font-size: 1rem;
+        font-weight: 300;
     }
     .btn{
         font-size: 14px;
@@ -201,5 +202,8 @@
     }
     #about h1, #activities h1, #donation h1, #contact h1{
         font-size: 1.6rem;
+    }
+    #about p , .right p{
+        font-weight: 300;
     }
 }
