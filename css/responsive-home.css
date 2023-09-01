@@ -1,0 +1,39 @@
+@media(max-width: 1300px){
+    #navbar ul li{
+        margin: 0px 20px;
+    }
+}
+
+@media(max-width: 1000px){
+    #navbar ul li{
+        font-size: 17px;
+    }
+}
+
+@media(max-width: 900px){
+    #navbar ul li{
+        margin: 10px 0px;
+    }
+    #navbar , #navbar ul{
+        flex-direction: column;
+        text-align: center;
+        padding: 12px 0px;
+    }
+    #navbar{
+        height: 350px;
+        transition: all 0.4s ease-out;
+    }
+
+    #navbar .logo{
+        margin: unset;
+    }
+    .hamburger{
+        display: block;
+    }
+    .h-navbar{
+        height: 35px !important;
+    }
+    .v-hidden{
+        opacity: 0;;
+    }
+}
