@@ -14,9 +14,6 @@
     .contact h2,.links h2,.help h2{
         text-align: center;
     }
-    .address,.phone,.mail{
-        justify-content: center;
-    }
 }
 
 @media(max-width: 1000px){
