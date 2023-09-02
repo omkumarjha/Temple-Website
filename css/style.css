@@ -300,13 +300,16 @@ footer{
 }
 
 .contact h2,.links h2,.help h2{
-    font-size: 1.8rem;
-    margin-bottom: 15px;
+    font-size: 1.9rem;
     margin-top: 20px;
 }
 
+.company{
+    align-items: center;
+}
+
 .top-footer p,.top-footer li,.help li{
-    line-height: 1.8rem;
+    line-height: 2.1rem;
     font-size: 1.1rem;
 }
 
@@ -320,7 +323,24 @@ footer{
 }
 
 .bottom-footer{
-    padding: 30px 0px;
+    padding-top: 25px;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+.icons svg{
+    width: 22px;
+    height: 22px;
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.icons svg:hover{
+    transform: scale(1.1);
+    color: #ff6e43;
+}
+
+.icons div{
+    margin: 20px 14px;
 }
