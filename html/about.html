@@ -24,7 +24,7 @@
                 <li><a href="../html/index.html#about">About Us</a></li>
                 <li><a href="../html/index.html#activities">Programes</a></li>
                 <li><a href="../html/index.html#donation">Donation</a></li>
-                <li><a href="#">Gallary</a></li>
+                <li><a href="../html/gallary.html">Gallary</a></li>
                 <li><a href="../html/index.html#contact">Contact Us</a></li>
             </ul>
             <div class="hamburger cursor-pointer">
@@ -43,11 +43,11 @@
 
     <main>
         <div class="container">
-            <h1>Founder - Shri Chandra Shekhar Mishra</h1>
+            <h1 class="mainHeading">Founder - Shri Chandra Shekhar Mishra</h1>
             <p>Freedom Fighter | March 21 ,1921 - June 13 ,2010</p>
             <div class="content">
                 <div class="left-content">
-                    <img src="../img/gg-father2.jpg" alt="">
+                    <img src="../img/gallary/gg-father2.jpg" alt="">
                 </div>
                 <div class="right-content">
                     <p>
@@ -110,6 +110,21 @@
 
 
 </body>
-<script src="../script.js"></script>
+<script>
+
+    // For hamburger
+
+    let hamburger = document.querySelector(".hamburger");
+    let logo = document.querySelector(".logo");
+    let ul = document.querySelector(".ul");
+    let navbar = document.getElementById("navbar");
+
+    hamburger.addEventListener("click",()=>{
+        logo.classList.toggle("v-hidden")
+        ul.classList.toggle("v-hidden")
+        navbar.classList.toggle("h-navbar")
+    })
+
+</script>
 
 </html>

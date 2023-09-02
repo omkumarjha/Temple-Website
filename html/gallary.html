@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VED MATA GAYATRI BAIJANTRI SHAKTI PEETH TRUST , PATWA , BIHAR</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/utils.css">
+    <link rel="stylesheet" href="../css/responsive-home.css">
+    <link rel="stylesheet" href="../css/gallary.css">
+</head>
+<body>
+    <!-- Navigation section  -->
+    <header>
+        <nav id="navbar" class="display-flex h-navbar">
+            <div class="logo v-hidden">
+                <a href="../html/index.html#home"><img src="../img/logo.jpg" alt="" width="65px"
+                        class="cursor-pointer"></a>
+            </div>
+            <ul class="display-flex ul v-hidden">
+                <li><a href="../html/index.html#home">Home</a></li>
+                <li><a href="../html/index.html#about">About Us</a></li>
+                <li><a href="../html/index.html#activities">Programes</a></li>
+                <li><a href="../html/index.html#donation">Donation</a></li>
+                <li><a href="../html/gallary.html">Gallary</a></li>
+                <li><a href="../html/index.html#contact">Contact Us</a></li>
+            </ul>
+            <div class="hamburger cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16" onclick="func()">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </div>
+        </nav>
+    </header>
+
+    <hr style="color: #efe6e6;">
+
+    <!-- Main content  -->
+
+
+    <main>
+        <div class="starter">
+            <h1>Photo Gallary - Shree Ved Mata Trust</h1>
+        </div>
+
+        <div class="container">
+            <div class="remaining">
+                <div class="image1"><img src="../img/bg.jpg" alt=""></div>
+                <div class="image2"><img src="../img/gallary/f1.jpg" alt=""></div>
+                <div class="image6"><img src="../img/gallary/bg3.jpg" alt=""></div>
+                <div class="image3"><img src="../img/gallary/f2.jpg" alt=""></div>
+                <div class="image4"><img src="../img/gallary/f3.jpg" alt=""></div>
+                <div class="image5"><img src="../img/gallary/together.jpg" alt=""></div>
+                <div class="image9"><img src="../img/gallary/f4.jpg" alt=""></div>
+                <div class="image10"><img src="../img/gallary/gg-father2.jpg" alt=""></div>
+                <div class="image11"><img src="../img/gallary/gg-Father.jpg" alt=""></div>
+                <div class="image12"><img src="../img/gallary/gg-father3.jpg" alt=""></div>
+                <div class="image8"><img src="../img/gallary/slider3.jpg" alt=""></div>
+                <div class="image13"><img src="../img/gallary/gg-father4.jpg" alt=""></div>
+            </div>
+        </div>
+    </main>
+
+
+</body>
+<script>
+
+    // For hamburger
+
+    let hamburger = document.querySelector(".hamburger");
+    let logo = document.querySelector(".logo");
+    let ul = document.querySelector(".ul");
+    let navbar = document.getElementById("navbar");
+
+    hamburger.addEventListener("click",()=>{
+        logo.classList.toggle("v-hidden")
+        ul.classList.toggle("v-hidden")
+        navbar.classList.toggle("h-navbar")
+    })
+
+    // below code mai bas jaise hi screen ki width 600 px ya usse kam ho jayegi to hum  "welcome to" ke niche bache hue text ko laa denge .
+
+    setInterval(()=>{
+        if(window.screen.availWidth < 600){
+            let starter = document.querySelector(".starter");
+            starter.children[0].innerHTML = "Photo Gallary - <br> Shree Ved Mata Trust";
+        }
+        else{
+            let starter = document.querySelector(".starter");
+            starter.children[0].innerHTML = "Photo Gallary - Shree Ved Mata Trust";
+        }
+    },100)
+
+
+</script>
+</html>
