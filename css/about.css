@@ -1,0 +1,84 @@
+.container{
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    max-width: 90vw;
+    margin: 0px auto;
+}
+
+.container > h1{
+    font-size: 2rem;
+    margin: 30px 0px 10px 0px;
+}
+
+.content{
+    margin: 20px 0px;
+}
+
+.left-content img{
+    float: left;
+    border-radius: 7px;
+    margin: 0px 25px 0px 0px;
+    padding: 8px;
+    border: 1px solid #dadada;
+}
+
+
+.content p{
+    /* below line means tum dekh lo words ke beech kitna space dena hai but mujhe to poora line text ke sath cover karna hai  */
+    text-align: justify; 
+    line-height: 1.8rem;
+    font-size: 1.035rem;
+}
+
+
+iframe{
+    margin: 15px 17px;
+}
+
+/* Responsive css  */
+
+@media(max-width: 1100px){
+    .left-content img{
+        width: 275px;
+    }
+}
+
+@media(max-width: 850px){
+    .videos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .videos iframe{
+        width: 100%;
+    }
+    .container > h1{
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width: 700px){
+    .left-content{
+        text-align: center;
+    }
+    .left-content img{
+        float: unset;
+    }
+    .container > h1{
+        font-size: 1.65rem;
+    }
+}
+
+@media(max-width: 550px){
+    .videos iframe{
+        height: 200px;
+    }
+    .container > h1{
+        font-size: 1.4rem;
+    }
+    .content p{
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+    .container > p{
+        font-size: 15px;
+    }
+}

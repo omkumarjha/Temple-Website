@@ -24,10 +24,9 @@ table{
 }
 
 thead{
-    font-family: 'Balsamiq Sans', cursive;
     background-color: #ff6e43;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 tbody{
@@ -77,5 +76,8 @@ tbody tr:hover{
 @media(max-width: 425px){
     .container h1{
         font-size: 1.8rem;
+    }
+    thead{
+        font-size: 1.1rem;
     }
 }
