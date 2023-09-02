@@ -144,6 +144,9 @@
         padding: 30px 10px;
         font-size: 1rem;
     }
+    .company img{
+        top: unset;
+    }
 }
 
 @media(max-width: 500px){

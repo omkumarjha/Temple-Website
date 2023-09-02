@@ -276,7 +276,7 @@ footer{
 }
 
 .top-footer{
-    padding: 75px 0px;
+    padding: 75px 45px 75px 0px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
     justify-items: center;
@@ -304,8 +304,9 @@ footer{
     margin-top: 20px;
 }
 
-.company{
-    align-items: center;
+.company img{
+    position: relative;
+    top: 30px;
 }
 
 .top-footer p,.top-footer li,.help li{
