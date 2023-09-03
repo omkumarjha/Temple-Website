@@ -34,3 +34,8 @@ setInterval(()=>{
         right.children[0].innerHTML = "Welcome To Baijantri Shakti Peeth Trust";
     }
 },100)
+
+// below code tab run karega jab user refund wale footer option pe click karega.
+document.getElementById("refund").addEventListener("click",(e)=>{
+    alert("For Refund Please contact us through form or through phone.")
+})

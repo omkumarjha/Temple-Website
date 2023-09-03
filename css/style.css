@@ -282,11 +282,12 @@ footer{
     justify-items: center;
 }
 
-.links a,.help a,.mail a{
+.links a,.help a,.mail a,.phone a,#refund{
     text-decoration: none;
     color: black;
     font-size: 1.1rem;
     transition: 0.5s ease;
+    cursor: pointer;
 }
 
 .links li,.help li{
@@ -319,7 +320,7 @@ footer{
     top: 9px;
 }
 
-.mail a:hover,.links a:hover,.help a:hover{
+.mail a:hover,.links a:hover,.help a:hover,#refund:hover,.phone a:hover{
     color: #d53100;
 }
 
